@@ -1,0 +1,57 @@
+body {
+    background-color: #f1c746;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+section,
+form, 
+.data-input, 
+.search-input {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+
+}
+.search-input {
+    display: flex;
+    flex-direction: revert;
+    color: white;
+}
+input {
+    margin: 2px;
+    padding: 2px 2px 2px 5px;
+    background-color: #e6967c;
+    /* font-family: 'Architects Daughter', cursive; */
+    letter-spacing: 2px;
+    font-size: 15px;
+    border: 1px solid #ffff;
+    color: white;
+}
+h1 {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 60px;
+    color: #7986CB;
+}
+
+.data-input {
+    margin-top: 20px;
+    width: 300px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    background-color: #009688;
+    border: 1px solid #f1c746;
+    padding: 2px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    width: 100px;
+}
+.search {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    width: 140px;
+}
